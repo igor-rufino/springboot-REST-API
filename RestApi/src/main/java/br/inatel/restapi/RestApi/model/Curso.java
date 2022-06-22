@@ -1,7 +1,7 @@
 package br.inatel.restapi.RestApi.model;
 
 public class Curso {
-	
+
 	private Long id;
 	private String descricao;
 	private Integer cargaHoraria;
@@ -12,7 +12,6 @@ public class Curso {
 		this.descricao = descricao;
 		this.cargaHoraria = cargaHoraria;
 	}
-
 
 	public Long getId() {
 		return id;

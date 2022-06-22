@@ -1,7 +1,7 @@
 package br.inatel.restapi.RestApi.controller;
 
 public class MyMessage {
-	
+
 	private String info;
 
 	public String getInfo() {

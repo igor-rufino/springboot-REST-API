@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="br.inatel.restapi.controller.CursoController"/>
+    <fullyQualifiedTypeName name="br.inatel.restapi.service.CursoService"/>
+</qualifiedTypeNameHistroy>
