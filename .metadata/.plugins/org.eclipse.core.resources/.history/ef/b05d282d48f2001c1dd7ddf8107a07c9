@@ -1,0 +1,17 @@
+package br.inatel.restapi.RestApi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+import br.inatel.restapi.controller.CursoController;
+
+@SpringBootApplication
+@ComponentScan(basePackageClasses=CursoController.class)
+public class RestApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestApiApplication.class, args);
+	}
+
+}
